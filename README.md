@@ -28,6 +28,7 @@ Naive Bayes is a simple but effective probabilistic classifier that applies Baye
 ____________________________________________________________________________________________________________
 **CNN:**
 Convolution Neural NEtwork Including fallowing layers
+
 **1.Convolution Opertaion**:Apply filters to extract features from the input.(EG: Image-->Filter--->O/p ---> Activation function)
 
 Here Padding may Include :To prevent the loss of image padding is on top of the image
