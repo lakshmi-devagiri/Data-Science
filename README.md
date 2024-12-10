@@ -41,10 +41,15 @@ n+2p-f+1 p= p: The amount of padding added to the input.
 Stride: to the step size with which the filter moves (or slides) over the input data.
 
 **2.Max Pooling**: Down-sample the feature map to reduce its size and keep important features.
+
 Three types of Pooling : Max-Pooling, Avg-Pooling, Min-Pooling
-**3.Flattening:** Convert the pooled 2D feature map into a 1D vector .
-**4.Fully Connected Layer (ANN)**: Pass the flattened vector through fully connected layers to make predictions. 
+
+**3.Flattening:** Convert the pooled 2D feature map into a 1D vector.
+
+**4.Fully Connected Layer (ANN)**: Pass the flattened vector through fully connected layers to make predictions.
+
 **5.Output Layer:** Produce the final prediction, typically using softmax (for classification) or no activation (for regression).
+
 
 
 
