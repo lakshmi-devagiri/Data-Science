@@ -29,12 +29,17 @@ ________________________________________________________________________________
 **CNN:**
 Convolution Neural NEtwork Including fallowing layers
 **1.Convolution Opertaion**:Apply filters to extract features from the input.(EG: Image-->Filter--->O/p ---> Activation function)
+
 Here Padding may Include :To prevent the loss of image padding is on top of the image
+
 **Before Padding** :
 n-f+1   n =Size of the Image, f= Size of the filter.
+
 **After Padding**:
 n+2p-f+1 p= p: The amount of padding added to the input.
+
 Stride: to the step size with which the filter moves (or slides) over the input data.
+
 **2.Max Pooling**: Down-sample the feature map to reduce its size and keep important features.
 Three types of Pooling : Max-Pooling, Avg-Pooling, Min-Pooling
 **3.Flattening:** Convert the pooled 2D feature map into a 1D vector .
