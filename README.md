@@ -25,5 +25,22 @@ ________________________________________
 9. Naive Bayes Classifier: Probabilistic Classification
 Naive Bayes is a simple but effective probabilistic classifier that applies Bayes’ theorem with the “naive” assumption that features are conditionally independent. It’s fast, requires minimal data preparation, and is especially effective for text classification tasks, such as spam detection and sentiment analysis.
 
+____________________________________________________________________________________________________________
+**CNN:**
+Convolution Neural NEtwork Including fallowing layers
+**1.Convolution Opertaion**:Apply filters to extract features from the input.(EG: Image-->Filter--->O/p ---> Activation function)
+Here Padding may Include :To prevent the loss of image padding is on top of the image
+**Before Padding** :
+n-f+1   n =Size of the Image, f= Size of the filter.
+**After Padding**:
+n+2p-f+1 p= p: The amount of padding added to the input.
+Stride: to the step size with which the filter moves (or slides) over the input data.
+**2.Max Pooling**: Down-sample the feature map to reduce its size and keep important features.
+Three types of Pooling : Max-Pooling, Avg-Pooling, Min-Pooling
+**3.Flattening:** Convert the pooled 2D feature map into a 1D vector .
+**4.Fully Connected Layer (ANN)**: Pass the flattened vector through fully connected layers to make predictions. 
+**5.Output Layer:** Produce the final prediction, typically using softmax (for classification) or no activation (for regression).
+
+
 
 
