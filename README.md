@@ -1,5 +1,6 @@
 1. Linear Regression: Predicting Continuous Data
 Linear regression is one of the simplest and most widely used algorithms in data science. It helps predict a continuous target variable based on one or more independent variables. For instance, predicting housing prices based on factors like area, number of rooms, or location. The algorithm assumes a linear relationship between inputs and the output, making it an essential tool for regression tasks.
+
 ________________________________________
 2. Logistic Regression: Classification Simplified
 Despite its name, logistic regression is a classification algorithm used for binary classification tasks (e.g., predicting whether an email is spam or not). By calculating the probability of a certain event happening, logistic regression helps categorize data into two classes using the logistic (sigmoid) function.
@@ -51,7 +52,7 @@ Three types of Pooling : Max-Pooling, Avg-Pooling, Min-Pooling
 
 **5.Output Layer:** Produce the final prediction, typically using softmax (for classification) or no activation (for regression).
 
-
+Editied by Lakshmi
 
 
 
