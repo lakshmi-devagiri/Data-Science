@@ -52,7 +52,7 @@ Three types of Pooling : Max-Pooling, Avg-Pooling, Min-Pooling
 
 **5.Output Layer:** Produce the final prediction, typically using softmax (for classification) or no activation (for regression).
 
-
+Creted by Lakshmi
 
 
 
